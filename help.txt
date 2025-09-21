@@ -1,0 +1,9 @@
+Zip11, A compression program for Windows/Linux.
+
+COMMANDS : 
+
+--help : display all commands.
+--11 : compress file/directory
+--12 : decompress .z11 file.
+
+B//
