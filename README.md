@@ -4,9 +4,9 @@ Zip11 is a custom built Compression tool that allows you compress and decompress
 
 ### COMMANDS : 
 
---help : display all commands.
---11 : compress file/directory
---12 : decompress .z11 file.
++ --help : display all commands.
++ --11 : compress file/directory.
++ --12 : decompress .z11 file.
 
 made by **B//**
 
