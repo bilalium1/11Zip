@@ -1,5 +1,12 @@
 Zip11, A compression program for Windows/Linux.
 
+__________.__       ____ ____ 
+\____    /|__|_____/_   /_   |
+  /     / |  \____ \|   ||   |
+ /     /_ |  |  |_> >   ||   |
+/_______ \|__|   __/|___||___|
+        \/   |__|                  
+
 COMMANDS : 
 
 --help : display all commands.

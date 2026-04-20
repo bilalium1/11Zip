@@ -10,14 +10,16 @@ void putstr(char *str)
 
 void display_help()
 {
-    int help_fd = open("help.txt", O_RDONLY);
+    int help_fd = open("etc/help.txt", O_RDONLY);
+    if (help_fd == -1)
+        perror("open");
 
     char buffer[1025];
     ssize_t bytes_read = read(help_fd, buffer, sizeof(buffer));
     buffer[bytes_read] = '\0';
-    write(1, "\n\n", 2);
+    write(1, "\n", 2);
     putstr(buffer);
-    write(1, "\n\n", 2);
+    write(1, "\n", 1);
 
     close(help_fd);
 }
